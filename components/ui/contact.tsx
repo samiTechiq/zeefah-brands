@@ -100,7 +100,10 @@ export default function Contact() {
                 />
               </div>
 
-              <Button type="button" className="w-full bg-blue-600 hover:bg-blue-700">
+              <Button 
+                type="button" 
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+              >
                 Send Message
               </Button>
             </form>

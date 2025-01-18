@@ -42,7 +42,7 @@ export default function Hero() {
           <div className="flex gap-4 justify-center">
             <Button 
               onClick={() => scrollToSection("services")}
-              className="bg-blue-600 hover:bg-blue-700"
+              className="bg-blue-600 hover:bg-blue-700 text-white"
             >
               Our Services
               <ArrowRight className="ml-2 h-4 w-4" />
@@ -50,6 +50,7 @@ export default function Hero() {
             <Button 
               onClick={() => scrollToSection("contact")}
               variant="outline"
+              className="border-gray-300 hover:border-gray-400"
             >
               Contact Us
             </Button>
